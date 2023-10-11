@@ -1,9 +1,3 @@
-* {
-    border: 2px solid red;
-}
-
-
-
 /* CSS for Log in Page Below */
 
 /* This will make the page fit any browser*/
@@ -24,7 +18,7 @@ body {
 
     background-image: url("workoutRoom.jpeg");
     background-size: cover;
-  
+
 }
 
 main {
@@ -45,11 +39,11 @@ h2 {
 
 label[for="username"] {
     font-size: 5em;
-background-color: white;
+    background-color: white;
 }
 
 label[for="password"] {
-    font-size: 5em;
+    font-size: 5.05em;
     padding-left: 0.5%;
     background-color: white;
 
@@ -64,6 +58,7 @@ label[for="password"] {
     padding: 0.5em;
     align-items: center;
     align-content: center;
+    border-radius: 1em;
 }
 
 #password {
@@ -74,6 +69,7 @@ label[for="password"] {
     align-items: center;
     align-content: center;
     margin-left: 0.5em;
+    border-radius: 1em;
 
 }
 
@@ -81,22 +77,35 @@ label[for="password"] {
 
 /* Styling for log in button and some default styling for other buttons */
 
-#login{
-    background-color: blue;
+#login {
+    background-color: grey;
     width: 30em;
     height: 5em;
     margin-top: 2em;
-    margin-left: 30em; /* Adjust the value to move the button to the right */
-    
+    margin-left: 25em;
+    /* Adjust the value to move the button to the right */
+    cursor: pointer;
+    /* Change cursor on hover */
+    border-radius: 5px;
+    /* Add rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    /* Button shadow */
+    color: navy;
+    font-size: 1em;
+
 }
 
 /* Footer styling(Will be the same on all pages */
 
 footer {
-    background-color: #333;/* Background color of the footer */
-    color: #fff; /* Text color in the footer */
-    text-align: center; /* Center-align text in the footer */
-    padding: 20px; /* Add some padding for spacing */
+    background-color: #333;
+    /* Background color of the footer */
+    color: #fff;
+    /* Text color in the footer */
+    text-align: center;
+    /* Center-align text in the footer */
+    padding: 20px;
+    /* Add some padding for spacing */
 }
 
 /* Styling for how to log in */
@@ -105,5 +114,9 @@ h3 {
     font-size: larger;
     color: teal;
     background-color: black;
+    height: 10%; /* Ensure the height of the h3 fills its container */
 
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
 }
