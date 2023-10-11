@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lee's Workout App Log in Page</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lee's Workout App Log in Page</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
-<body>
-<div id="loginPage">
-<h2>Login</h2>
-<h3>Username is lee and Password is lee for testing</h3>
-<form id="loginForm">
-<label for="username">Username:</label>
-<input type="text" id="username" required><br>
+<h2>Login Page</h2>
+<main>
 
-<label for="password">Password:</label>
-<input type="password" id="password" required><br>
+    <body>
 
-<button type="button" onclick="authenticate()">Login</button>
-</form>
-</div>
+        <div id="loginPage"></div>
+        <h3>How to Log in: Username is lee and Password is lee for testing</h3>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="username"><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="password"><br>
+
+            <button id="login" type="button" onclick="authenticate()">Login</button>
+        </form>
+
+        
 
 
+
+</main>
+<footer>Footer goes here</footer>
 <script src="script.js"></script>
 </body>
 

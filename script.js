@@ -40,6 +40,9 @@ function authenticate() {
     // Create a button element
     const button = document.createElement("button");
     button.textContent = label; // Set the button label
+
+    // Set the id attribute for the button based on the label
+    button.id = `${label.toLowerCase()}Button`;
     
     button.addEventListener("click", function () {
     if (label === "Timer") {

@@ -1,0 +1,109 @@
+* {
+    border: 2px solid red;
+}
+
+
+
+/* CSS for Log in Page Below */
+
+/* This will make the page fit any browser*/
+html,
+body {
+    height: 100%;
+}
+
+main {
+    flex: 1;
+    /* Expand to fill remaining vertical space */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-image: url("workoutRoom.jpeg");
+    background-size: cover;
+  
+}
+
+main {
+    flex: 1;
+    /* Expand to fill remaining vertical space */
+}
+
+/* Header for log in and app page */
+
+h2 {
+    text-align: center;
+    color: aqua;
+    font-size: 5em
+}
+
+/* CSS for user name and password(Not the user entering it but on page */
+
+
+label[for="username"] {
+    font-size: 5em;
+background-color: white;
+}
+
+label[for="password"] {
+    font-size: 5em;
+    padding-left: 0.5%;
+    background-color: white;
+
+}
+
+/* Username input field size and password field size */
+
+#username {
+
+    width: 10em;
+    height: 2em;
+    padding: 0.5em;
+    align-items: center;
+    align-content: center;
+}
+
+#password {
+
+    width: 10em;
+    height: 2em;
+    padding: 0.5em;
+    align-items: center;
+    align-content: center;
+    margin-left: 0.5em;
+
+}
+
+
+
+/* Styling for log in button and some default styling for other buttons */
+
+#login{
+    background-color: blue;
+    width: 30em;
+    height: 5em;
+    margin-top: 2em;
+    margin-left: 30em; /* Adjust the value to move the button to the right */
+    
+}
+
+/* Footer styling(Will be the same on all pages */
+
+footer {
+    background-color: #333;/* Background color of the footer */
+    color: #fff; /* Text color in the footer */
+    text-align: center; /* Center-align text in the footer */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+/* Styling for how to log in */
+h3 {
+    text-align: center;
+    font-size: larger;
+    color: teal;
+    background-color: black;
+
+}
