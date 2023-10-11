@@ -1,3 +1,7 @@
+* {
+    border: 2px solid red;
+}
+
 /* CSS for Log in Page Below */
 
 /* This will make the page fit any browser*/
@@ -114,9 +118,76 @@ h3 {
     font-size: larger;
     color: teal;
     background-color: black;
-    height: 10%; /* Ensure the height of the h3 fills its container */
+    height: 10%;
+    /* Ensure the height of the h3 fills its container */
 
     display: flex;
-    justify-content: center; /* Horizontally center the content */
-    align-items: center; /* Vertically center the content */
+    justify-content: center;
+    /* Horizontally center the content */
+    align-items: center;
+    /* Vertically center the content */
+}
+
+/* Styling for the app page will be below this */
+
+/* Background image for the app page... will need to update with new image */
+#appPage {
+    background-image: url("fitness.jpeg");
+    background-size: cover;
+
+}
+
+/* Button styling for the app page */
+button#notesButton,
+button#goalsButton,
+button#calculatorButton,
+button#workoutlogsButton,
+button#profileButton,
+button#timerButton {
+    background-color: aqua;
+    width: 20%;
+    height: 100px;
+    cursor: pointer;
+    /* Change cursor on hover */
+    border-radius: 5px;
+    /* Add rounded corners */
+    margin-left: -50px;
+    font-size: larger;
+}
+
+/* Styling for the paragraphs */
+#appPage .button-paragraph-container p {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    /* Adjust the spacing between paragraphs and buttons */
+    color: white;
+    background-color: darkblue;
+    height: 100px;
+}
+
+/* Styling for Testimonal for User's Heading */
+h4 {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkblue;
+    color: white;
+    width: 20%;
+}
+
+/* Styling for back to log in button on app page only */
+button#appPage-backButton {
+
+    background-color: grey;
+    width: 10em;
+    height: 5em;
+    cursor: pointer;
+    /* Change cursor on hover */
+    border-radius: 5px;
+    /* Add rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    /* Button shadow */
+
+    font-size: 1em;
+
 }
