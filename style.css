@@ -191,3 +191,37 @@ button#appPage-backButton {
     font-size: 1em;
 
 }
+
+/* Styling for notes page */
+
+/* Styling for notes page */
+#notesPage body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#notesPage h1 {
+    color: aqua;
+    text-align: center;
+}
+
+#notesPage textarea {
+    width: 80%;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#notesPage button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#notesPage #savedNotes {
+    text-align: left;
+    margin-top: 20px;
+}
