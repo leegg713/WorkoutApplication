@@ -1,23 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
+    <title>Rep Max Calculator</title>
 </head>
-<link rel="stylesheet" href="style.css">
-
-<body id="calc">
-    <h1>Calculator</h1>
-    <div id="mathDiv"></div>
-    <div id="numberDiv"></div>
-    <div id="calculator-display">
-        <!-- Calculator display content will be updated by JavaScript -->
-    </div>
-
-</body>
-<button id="backToAppButton" onclick="window.history.back()">Back to App Page</button>
+<body>
+    <!-- Your content goes here -->
+ 
+        <input type="text" id="lbInput" placeholder="LBS">
+        <input type="text" id="repInput" placeholder="Reps">
+        <button onclick="calculateMax()">Calculate 1RM</button>
+        
+        <table id="logTable">
+    <thead>
+        <tr>
+            <th>Percentage</th>
+            <th>Calculated Value</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Table rows will be added here -->
+    </tbody>
+</table>
 <script src="calc.js"></script>
-
+<footer>Merigold Productions © 1999-2023 Email Lee for Help. </footer>
 </html>
